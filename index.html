@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Form homework</title>
+</head>
+<body>
+	<form action="#">
+	<fieldset>
+		<legend>About You</legend>
+		<label for="LastName">Your LastName</label>
+		<input type="text" name="LastName" id="LastName" placeholder="Enter your Lastname"><br>
+		<br>
+			<label for="Name">Your Name</label>
+		<input type="text" name="Name" id="Name" placeholder="Enter your Name"><br>
+		<br>
+		<label for="FatherName">Father's name</label>
+		<input type="text" name="FatherName" id="FatherName" placeholder="Enter your Father's Name"><br>
+		<br>
+		<label for="Adress">Your Home Adress</label>
+		<input type="text" name="Adress" id="Adress" placeholder="Enter your  HomeAdress"><br>
+		<br>
+		<label for="Age">Your age</label>
+		<input type="date" name="Age" id="Age"><br>
+		<br>
+			<label for="Email">Your Email</label>
+		<input type="email" name="Email" id="Email" placeholder="Enter your Email"><br>
+		<br>
+	</fieldset>
+	<fieldset>
+		<legend>Job</legend>
+		<label> Organization Adress<input type="text"></label><br>
+		<br>
+		<label><input type="number" min="1" max="100" value="1">Years you Work</label><br>
+		<br>
+		<label for="">First working day was:<input type="date"></label><br>
+		<br>
+	</fieldset>
+	<fieldset>
+		<legend>Statistics</legend>
+		<label for="President">How President do his work(1 is very good,100 is brilliant)</label>
+		<input type="range" name="President" id="President" min="1" max="100"><br>
+		<br>
+		<label for="Elections">What do you think about last elections</label>
+		<textarea name="LaElections" id="Elections" cols="30" rows="10"></textarea><br>
+		<br>
+		<label for="travel">Best month for traveling</label>
+	 <select name="travel" id="travel">
+	 	<option value="01">January</option>
+	 	<option value="02">February</option>
+	 	<option value="03">March</option>
+	 	<option value="04">April</option>
+	 	<option value="05">May</option>
+	 	<option value="06">June</option>
+	 	<option value="07">July</option>
+	 	<option value="08">August</option>
+	 	<option value="09">September</option>
+	 	<option value="10">October</option>
+	 	<option value="11">November</option>
+	 	<option value="12">December</option>
+	 </select>
+	</fieldset>
+	<fieldset>
+		<legend>Priorities</legend>
+		<p>Your priorities when you choose cofee</p>
+		<label for="cofee1">Price of cofee</label>
+<input type="radio" name="cofee" id="cofee1" value="price"><br>
+<br>
+<label for="cofee2"> Type of cofee</label>
+<input type="radio" name="cofee" id="cofee2" value="type"><br>
+<br>
+<label for="cofee3">How it's done</label>
+<input type="radio" name="cofee" id="cofee3" value="how it's done"><br>
+<br>
+<p>Your priorities when you choose place for relax</p>
+<label for="Relax1">place where it localed
+<input type="checkbox" name="Relax" id="Relax1" value="place"></label><br>	
+<br>	
+<label for="Relax2">Type of relax 
+<input type="checkbox" name="Relax" id="Relax2" value="Type "></label><br>	
+<br>	
+<label for="Relax3">Price it will cost
+<input type="checkbox" name="Relax" id="Relax3" value="price"></label><br>	
+<br>
+<label for="Relax4">Comments of friends	
+<input type="checkbox" name="Relax" id="Relax4" value="comments"></label><br>	
+<br>	
+<label for="Relax5">Does place popular or no
+<input type="checkbox" name="Relax" id="Relax5" value="Popular"></label><br>	
+<br>	
+<p>Your priorities when you choose auto </p>
+<select name="auto	" id="" multiple>
+	<option>price</opion>
+	<option>company</opion>
+	<option>economical</opion>
+	<option>fast</opion>
+	<option>place where it's made</option>
+	<option>comments</option>
+</select>
+<p>Food you prefer</p>
+<select name="food" multiple>
+	<optgroup label="Fruits"><option value="	">Apple</option>
+	<option value="">Pineapple</option>
+	<option value="">Orange</option>
+	<option value="">Melon</option></optgroup>
+	<optgroup label="Vegetables">	
+		<option value="	">Cucumber</option>
+		<option value="">Potato</option>
+		<option value="">Tomato</option>
+		<option value="">Carrot</option>
+	</optgroup>
+</select>
+	</fieldset>
+
+	<button type="submit"><img src="./icons/send.png" alt="" height="13px" width="17px"></buttton><br>	
+	<button type="reset"> <img src="./icons/reset.png" alt="" height="13px" width="17px"></buttton>
+</form>
+</body>
+</html>
